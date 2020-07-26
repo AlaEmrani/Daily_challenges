@@ -14,7 +14,6 @@ def last_k_ways(data, k, memo):
     if k>1 and int(data[s:s+2])<27:
         result += last_k_ways(data, k-2, memo)
     memo[k] = result
-    print(memo)
     return result
 
 print(num_ways('1111'))
