@@ -1,3 +1,4 @@
+# my first challenge
 def num_ways(data):
     memo = [None]*(len(data)+1)
     return last_k_ways(data, len(data), memo)
