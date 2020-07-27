@@ -1,5 +1,6 @@
 # my second day challenge
 
+# num ways with 1, 2 steps
 def num_ways(n):
     if n == 1:
         return 1
@@ -11,7 +12,7 @@ def num_ways(n):
 
 print(num_ways(5))
 
-
+# num ways with a list of steps
 def num_ways_set(n, s):
     if n == 0:
         return 1
@@ -24,7 +25,7 @@ def num_ways_set(n, s):
 
 print(num_ways_set(2, [1,2,3]))
 
-
+# efficient num ways with DP
 def bottom_up_num_ways(n, s):
     if n ==0:
         return 1
